@@ -21,3 +21,14 @@ sudo bash -c "$(curl -sL https://raw.githubusercontent.com/danfordd/multiserver-
 4. ```sh
    sudo ./install_local.sh
    ```
+
+### ***Info***:
+P.S1: If you wish to change the second server for the connection, edit the settings in the file located at:
+```./libs/hbb_common/src/config.rs```
+Change the following:
+```FUNTIME_ID_SERVER```
+```FUNTIME_RELAY_SERVER```
+```FUNTIME_API_SERVER```
+```FUNTIME_KEY```
+
+P.S2: Also, within the app itself, DO NOT ADD A SERVER to the ***Network*** tab
